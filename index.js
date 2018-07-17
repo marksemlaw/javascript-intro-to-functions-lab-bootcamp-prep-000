@@ -14,8 +14,8 @@ function logShout (string) {
   console.log(string.toUpperCase())
 }
 
-function sayHiToGrandma(string) {
-  if (string === "hello!") {
+function sayHiToGrandma(random) {
+  if (random === "hello!") {
     return("I can't hear you!")
     }
     else if (string === "HELLO!") {
